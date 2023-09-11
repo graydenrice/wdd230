@@ -29,6 +29,7 @@ header {
     align-items: center;
     display: flex;
     box-shadow: 10px 10px 50px black;
+    margin: 25px;
 }
 
 h1 {
