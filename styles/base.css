@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, main, footer {
+    max-width: 100%;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: #e6f2ff;
+}
+
+header {
+    background-color: #084C61;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#photo {
+    width: 150px;
+    align-items: center;
+    display: flex;
+    box-shadow: 10px 10px 50px black;
+}
+
+h1 {
+    color: white;
+    font-size: 6rem;
+    margin: auto;
+    border: 1rem;
+}
+
+nav {
+    background: #Db504A;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+
+nav a:hover {
+    color: black;
+    padding: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 3rem;
+    text-decoration: underline 2px;
+    margin-bottom: 20px;
+}
+
+section{
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 2rem;  
+}
+
+#card, .card {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 50px black; 
+}
+
+#card h3, .card h3 {
+    text-align: center;
+    background-color: #e3b505;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#card li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.card p {
+    padding: 15px;
+    padding-bottom: 68px;
+    text-align: center;
+}
+
+footer {
+    justify-content: center;
+    background-color: #084C61;
+    color: white;
+    height: 200px;
+    padding: 3rem;
+}
+footer p {
+    font-size: 2rem;
+    text-align: center;
+}
