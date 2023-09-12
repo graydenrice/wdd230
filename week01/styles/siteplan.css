@@ -1,0 +1,93 @@
+body{
+    background-color: #eae6e5;
+}
+
+header {
+    background-color: #5b9279;
+    text-align: center;
+    border: 5px solid black;
+    color: white;
+    box-shadow: 5px 5px 50px gray;
+    font-family: 'Merriweather', sans-serif;
+}
+
+
+header h1 {
+    font-size: 5rem;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+header p {
+    font-size: 1.5rem;
+    
+}
+
+nav {
+    background: #182825;
+    margin-top: -16px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 50px gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#purpose, #scenarios {
+    background-color: #d6c9c9;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 5px 5px 50px gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+#purpose h2, #scenarios h3 {
+    background-color: #8fcb9b;
+    font-size: 4rem;
+    margin-top: 0;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+#purpose, #scenarios li {
+    font-size: 2rem;
+    padding-bottom: 50px;
+    list-style-type: none;
+}
+
+#scenarios li {
+    padding-right: 50px;
+}
+
+#typography {
+    text-align: center;
+    grid-column: 1/3;
+    font-size: 2.5rem;
+    border: 5px solid black;
+}
+
+#images {
+    text-align: center;
+}
+
+#main, #mobile {
+    padding: 20px;
+}
