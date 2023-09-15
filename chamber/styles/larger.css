@@ -1,0 +1,55 @@
+@media screen and (min-width: 658px) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        text-align: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #card1 {
+        grid-column: 1;
+    }
+
+    #card2 {
+        grid-column: 2;
+    }
+
+    #card3 {
+        grid-column: 1;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #5b9279;
+        color: white;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #info {
+        grid-column: 2;
+        font-size: 20px;
+    }
+
+    #contact {
+        grid-column: 3;
+    }
+}
