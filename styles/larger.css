@@ -1,10 +1,15 @@
 @media screen and (min-width: 745px) {
-    nav ul {
+    .navigate {
         display: flex;
     }
 
-    nav ul li {
+    .navigate li {
+        display: block;
         flex: 1 1 100%;
+    }
+
+    .navigate li a {
+        text-align: center;
     }
 
     main {
@@ -18,5 +23,9 @@
     .card {
         grid-column: 2;
         
+    }
+
+    #menu {
+        display: none;
     }
 }

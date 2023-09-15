@@ -6,22 +6,27 @@
     <title>Grayden Rice - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="Grayden Rice - WDD 230 - Web Frontend Development - course assignment portal">
     <meta name="author" content="Grayden Rice">
-    <meta property="og:title" content="WDD 230 - Web Frontend Development"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content="https://live.staticflickr.com/4374/36385091191_b4fe3875d7_b.jpg"/>
-    <meta property="og:url" content="http://127.0.0.1:5500/index.html"/>
-    <link rel="stylesheet" href="styles/normalize.css">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://live.staticflickr.com/4374/36385091191_b4fe3875d7_b.jpg">
+    <meta property="og:url" content="http://127.0.0.1:5500/index.html">
+    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+    <link rel="stylesheet" href="styles/cstmnorm.css".>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
     <header>
-        <img id="photo" src="images/grayden.jpg" alt="profile image">
+        <div id="mode">
+            ☑️
+        </div>
+        <img id="photo" src="images/grayden.jpg" alt="profile">
         <h1>Grayden Rice</h1>
     </header>
     <nav>
-        <ul>
+        <button id="menu"></button>
+        <ul class="navigate">
             <li><a href="index.html">Home</a></li>
             <li><a>Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
@@ -69,5 +74,6 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
