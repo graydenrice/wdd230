@@ -35,7 +35,6 @@
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        background-color: #5b9279;
         color: white;
         bottom: 0;
         width: 100%;

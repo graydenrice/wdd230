@@ -1,0 +1,23 @@
+progress {
+    vertical-align: baseline;
+}
+
+textarea {
+    overflow: auto;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+small {
+    font-size: 80%;
+}
+
+details {
+    display: block;
+}
+
+summary {
+    display: list-item;
+}

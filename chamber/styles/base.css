@@ -20,7 +20,7 @@ header, footer {
 
 header {
     text-align: center;
-    background-color: #5b9279;
+    background-color: #4E472F;
     color: white;
 }
 
@@ -34,7 +34,7 @@ header p {
 }
 
 nav {
-    background-color: #182825;
+    background-color: #355e3b;
     padding: 5px;
 }
 
@@ -91,7 +91,6 @@ main {
 }
 
 #hero {
-    pointer-events: none;
     position: absolute;
     width: 100%;
     height: 75%;
@@ -109,14 +108,14 @@ main {
     border: 2px solid black;
     border-radius: 25px;
     font-size: 3rem;
-    background-color: white;
+    background-color: rgba(53, 94, 59, .5);
     color: black;
     text-decoration: none;
 }
 
 #action a:hover {
-    background-color: #8fcb9b;
-    color: black;
+    background-color: #355e3b;
+    color: white;
 }
 
 section{
@@ -141,7 +140,7 @@ section h2{
 }
 
 footer {
-    background-color: #5b9279;
+    background-color: #4E472F;
     color: white;
     position: absolute;
     width: 100%;
