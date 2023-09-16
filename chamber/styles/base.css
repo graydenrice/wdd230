@@ -25,16 +25,19 @@ header {
 
 header h1 {
     font-size: 4rem;
+    width: 100%;
 }
 
 header p {
     font-size: 2rem;
     padding-bottom: 30px;
+    width: 100%;
 }
 
 nav {
     background-color: #355e3b;
     padding: 5px;
+    width: 100%;
     font-family: 'Merriweather', 'Times New Roman', Times, serif;
 }
 
@@ -94,7 +97,7 @@ main {
 #hero {
     position: absolute;
     width: 100%;
-    height: 75%;
+    height: 865.31px;
     z-index: -1;
 }
 
@@ -151,4 +154,8 @@ footer {
 
 footer p, address {
     padding: 10px;
+}
+
+#info {
+    grid-row: 1;
 }
