@@ -1,0 +1,28 @@
+h1{
+    font-size: 6rem;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
