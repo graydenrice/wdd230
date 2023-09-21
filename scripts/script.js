@@ -20,3 +20,17 @@ modeButton.addEventListener('click', () => {
         modeButton.textContent = '☑️'
     }
 });
+
+const displayVisits = document.querySelector('.visits');
+
+let visits = Number(window.localStorage.getItem('numVisits')) || 0;
+
+if (visits !== 0) {
+    displayVisits.textContent = visits;
+} else {
+    displayVisits.textContent = 'This is you first visit!';
+}
+
+visits++;
+
+localStorage.setItem('numVisits', visits);
