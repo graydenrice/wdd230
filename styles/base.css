@@ -120,7 +120,6 @@ nav a:hover {
     border: 2px solid black;
     padding: 15px;
     box-shadow: 5px 5px 10px gray;
-    text-wrap: nowrap;
 }
 
 #label p {
