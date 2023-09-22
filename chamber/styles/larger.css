@@ -28,6 +28,7 @@
     }
 
     main {
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
@@ -46,6 +47,8 @@
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        position: absolute;
+        bottom: 0;
         color: white;
         bottom: 0;
         width: 100%;
@@ -55,6 +58,10 @@
         text-align: center;
     }
 
+    #disco {
+        position: relative;
+    }
+
     #info {
         grid-column: 2;
         font-size: 20px;
@@ -62,5 +69,62 @@
 
     #contact {
         grid-column: 3;
+    }
+
+    #discover {
+        display: grid;
+        grid-template-columns: 450px auto;
+    }
+
+    #sidebar {
+        height: 100%;
+    }
+
+    #event p{
+        width: 350px;
+        height: 100%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    #advert {
+       width: 350px;
+       margin-left: 50px;
+    }
+
+    #advert p{
+        text-align: center;
+        height: 100%;
+    
+    }
+
+    #golf {
+        width: 250px;
+        height: 140px;
+    }
+
+    iframe {
+        margin-left: 50px;
+        width: 350px;
+        height: 350px;
+    }
+
+    #visit {
+        width: 350px;
+        margin-left: 50px;
+    }
+
+    #gallery {
+        margin-left: 300px;
+    }
+
+    #image1, #image2, #image3, #image4, #image5, #image6{
+        width: 1200px;
+        height: 600px;
+    }
+
+    #image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover, #image6:hover {
+        transition: 1s;
+        transform: scale(1.12);
     }
 }

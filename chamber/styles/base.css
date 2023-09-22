@@ -90,7 +90,6 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     height: 100%;
-    padding-bottom: 200px;
     font-family: 'Roboto', Georgia, sans-serif;
 }
 
@@ -143,10 +142,79 @@ section h2{
     border-bottom: 2px solid black;
 }
 
+#discover {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #e6f2ff;
+}
+
+#sidebar {
+    width: 600px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+
+#event p{
+    grid-column: 1;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#advert{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+}
+
+iframe {
+    width: 600px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px gray;
+    margin-bottom: 50px;
+}
+
+#visit {
+    grid-column: 1;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#gallery {
+    height: 100%;
+    width: 600px;
+}
+
+#image1, #image2, #image3, #image4, #image5, #image6 {
+    border: 5px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px gray;
+    margin: 20px;
+    width: 575px;
+    height: 287px;
+}
+
+#golf {
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 90%;
+}
+
 footer {
     background-color: #4E472F;
     color: white;
-    position: absolute;
     width: 100%;
     font-size: 20px;
     text-align: center;
