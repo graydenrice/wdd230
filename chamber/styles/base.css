@@ -149,7 +149,7 @@ section h2{
 }
 
 #sidebar {
-    width: 600px;
+    width: 100%;
     font-size: 1.5rem;
     font-weight: 700;
     
@@ -196,8 +196,8 @@ iframe {
 }
 
 #gallery {
-    height: 100%;
-    width: 600px;
+    height: auto;
+    width: 100%;
 }
 
 #image1, #image2, #image3, #image4, #image5, #image6 {
