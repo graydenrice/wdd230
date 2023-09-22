@@ -121,10 +121,10 @@
     #image1, #image2, #image3, #image4, #image5, #image6{
         width: 100%;
         height: auto;
+        transform: scale(1.5);
     }
 
     #image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover, #image6:hover {
-        transition: 1s;
-        transform: scale(1.12);
+        box-shadow: 20px 20px 60px black;
     }
 }
