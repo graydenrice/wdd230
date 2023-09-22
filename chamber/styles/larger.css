@@ -119,8 +119,8 @@
     }
 
     #image1, #image2, #image3, #image4, #image5, #image6{
-        width: 1200px;
-        height: 600px;
+        width: 100%;
+        height: auto;
     }
 
     #image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover, #image6:hover {
