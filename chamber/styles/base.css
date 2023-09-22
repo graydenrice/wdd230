@@ -204,9 +204,10 @@ iframe {
     border: 5px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 10px gray;
-    margin: 100px;
     width: 100%;
     height: auto;
+    grid-column: 1;
+    margin-bottom: 50px;
 }
 
 #golf {
