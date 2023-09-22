@@ -158,6 +158,7 @@ section h2{
 #event p{
     grid-column: 1;
     text-align: center;
+    background-color: white;
     border: 2px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 10px gray;
@@ -166,6 +167,7 @@ section h2{
 }
 
 #advert{
+    background-color: white;
     text-align: center;
     border: 2px solid black;
     border-radius: 25px;
@@ -184,6 +186,7 @@ iframe {
 
 #visit {
     grid-column: 1;
+    background-color: white;
     text-align: center;
     border: 2px solid black;
     border-radius: 25px;
