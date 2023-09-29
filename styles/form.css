@@ -1,0 +1,75 @@
+:root {
+    --border: 1px solid black;
+    --display: block;
+    --border-color: maroon;
+}
+
+form fieldset:first-child, fieldset{
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    border-color: var(--border-color);
+    max-width: 25rem;
+    border-radius: 10px;
+}
+
+legend {
+    padding: .5rem;
+    color: maroon;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+#user, #pass, #passw2, #email, #subBtn {
+    display: var(--display);
+    font-size: 1rem;
+    border: var(--border);
+    border-radius: 5px;
+    padding: .75rem;
+    color: gray;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    display: var(--display);
+    padding: 7px;
+}
+
+#rate {
+    display: block;
+    width: 200px;
+    margin-left: 25px;
+    display: var(--display);
+    border-color: var(--border-color);
+}
+
+#value {
+    display: block;
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+#ratelist {
+    display: flex;
+    margin: 0 0 0 25px;
+    width: 200px;
+    align-items: center;
+}
+
+#ratelist option {
+    flex: 1 1 auto;
+    margin-left: 6px;
+}
+
+#subBtn {
+    border: none;
+    color: white;
+    margin-top: 20px;
+    background-color: green;
+    font-size: 1.5rem;
+}
+
+#subBtn:hover {
+    background-color: lightgreen;
+    color: black;
+}

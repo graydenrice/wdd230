@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: whitesmoke;
+
+}
+
+main{
+    display: block;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 3.3rem;
+}
+
+a {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #Db504A;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+}

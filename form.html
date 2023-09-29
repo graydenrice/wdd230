@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Page</title>
+    <meta name="description" content="Forms team activty">
+    <meta name="author" content="Grayden Rice">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <div id="mode">
+            ☑️
+        </div>
+        <img id="photo" src="images/grayden.webp" alt="profile">
+        <h1>Grayden Rice</h1>
+    </header>
+    <nav>
+        <button id="menu" title="menu"></button>
+        <ul class="navigate">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <fieldset>
+                
+                <legend>Account Info</legend>
+                    <label class="info">Username* <input type="text" id="user" name="Username" required></label>
+                    <label class="info">Password* <input type="password" id="pass" name="Password" required pattern="[a a-zA-Z0-9]{8,}"></label>
+                    <div id="message"></div>
+                    <label class="info">Confirm Password* <input type="password" id="passw2" name="Re-enter Password" required></label>
+                    <label class="info">Email * <input type="email" id="email" name="Email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please Enter Valid Email."></label>
+            </fieldset>  
+            <fieldset> 
+                <legend>Rate the Page</legend>
+                <div id="value">0</div>
+                <label>Rating <input type="range" id="rate" name="Rating" min="0" max="10" value="0" step="1" list="ratelist">
+                    <datalist id="ratelist">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </label>
+            </fieldset>
+            <input type="submit" id="subBtn" value="Create Account" class="submit"> 
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> - Grayden Rice - Utah</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
