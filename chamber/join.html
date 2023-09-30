@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber join page</title>
+    <meta name="description" content="Home page for chamber of commerce site">
+    <meta name="author" content="Grayden Rice">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="styleSheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>West Point Chamber of Commerce</h1>
+        <p>Building a Better Community for All!</p>
+    </header>
+    <nav>
+        <button id="menu" title="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main id="forms">
+        <form method="get" action="thankyou.html">
+            <label for="fname">First Name* <sup> required</sup></label>
+            <input type="text" id="fname" name="firstname" required placeholder="John">
+
+            <label for="lname">Last Name* <sup> required</sup></label>
+            <input type="text" id="lname" name="lastname" required placeholder="Doe">
+
+            <label for="title">Title/Position </label>
+            <input type="text" id="title" name="title" pattern="[a-z A-Z -]+{1,7}" placeholder="Manager">
+
+            <label for="email">E-mail* <sup> required</sup></label>
+            <input type="email" id="email" name="email" required placeholder="someone@example.com">
+
+            <label for="mobile">Mobile* <sup> required</sup></label>
+            <input type="tel" id="mobile" name="mobilephone" required placeholder="825-555-4321">
+
+            <label for="business">Business/Organizaton* <sup> required</sup></label>
+            <input type="text" id="business" name="business" required>
+
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label class="level"><input type="radio" id="level" name="level" value="np">NP (Non-profit)</label>
+                <label class="level"><input type="radio" id="level" name="level" value="bronze">Bronze</label>
+                <label class="level"><input type="radio" id="level" name="level" value="silver">Silver</label>
+                <label class="level"><input type="radio" id="level" name="level" value="gold">Gold</label>
+            </fieldset>
+            
+            <div id="des">
+                <label for="description">Description</label>
+                <textarea name="description" id="description" cols="30" rows="5" placeholder="Description of Business/Organization"></textarea>
+            </div>
+
+            <label for="timest"></label>
+            <input type="hidden" id="timest" name="timestamp" >
+
+            <label id="subBtn"><input type="submit" id="submit" name="submit" value="Join the Chamber!"></label> 
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th id="tableh" colspan="5" scope="colgroup">Membership Level Benefits</th>
+                </tr>
+                <tr>
+                    <th class="rand" scope="col"></th>
+                    <th scope="col">Monthly Lunch</th>
+                    <th scope="col">Trainings</th>
+                    <th scope="col">Special Events</th>
+                    <th scope="col">Website Ad</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <th>Bronze<br> <sub> ($225 per year)</sub></th>
+                    <td id="✔️">&#10003</td>
+                    <td id="✔️">&#10003</td>
+                    <td id="x">&#9747</td>
+                    <td id="x">&#9747</td>
+                </tr>
+                <tr>
+                    <th>Silver<br> <sub> ($425 per year)</sub></th>
+                    <td id="✔️">&#10003</td>
+                    <td id="✔️">&#10003</td>
+                    <td id="✔️">&#10003</td>
+                    <td id="x">&#9747</td>
+                </tr>
+                <tr>
+                    <th>Gold<br> <sub> ($700 per year)</sub></th>
+                    <td id="✔️">&#10003</td>
+                    <td id="✔️">&#10003</td>
+                    <td id="✔️">&#10003</td>
+                    <td id="✔️">&#10003</td>
+                </tr>
+                <tr>
+                    <th>NP (Non Non-Profit)<br> <sub> (No Annual Fee)</sub></th>
+                    <td id="✔️">&#10003</td>
+                    <td id="✔️">&#10003</td>
+                    <td id="✔️">&#10003</td>
+                    <td id="✔️">&#10003</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer id="disco">
+        <address>1284 West 600 North <br> West Point, Utah 84015</address>
+        <p id="contact">info@wpchamberofcommerce.org<br>(801)555-2386</p>
+        <p id="info">&copy;<span id="year"></span> Grayden Rice | WDD230-Final Project | <span id="lastModified"></span></p>
+        
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

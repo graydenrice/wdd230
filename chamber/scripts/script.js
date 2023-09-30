@@ -32,3 +32,10 @@ if (!firstVisit) {
 
     localStorage.setItem('lastVisit', today);
 }
+
+var date = new Date.now();
+
+document.getElementById('timest').innerHTML = date;
+
+
+

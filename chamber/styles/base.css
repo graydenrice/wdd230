@@ -231,3 +231,196 @@ footer p, address {
 #info {
     grid-row: 1;
 }
+
+#forms {
+    display: grid;
+    height: fit-content;
+    background-color: #e6f2ff;
+    padding: 50px;
+}
+
+form {
+    height: 100%;
+    border: 2px solid gray;
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+    background-color: rgba(143, 203, 155, 0.5);
+    border-radius: 15px;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+sup{
+    font-size: 1rem;
+    color: red;
+}
+
+label, input ,textarea{
+    display: block;
+    margin: 10px;
+}
+
+#lname, #title, #fname, #email, #business, #mobile{
+    padding: .75rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: whitesmoke;
+    margin: 10px;
+    width: 95%;
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+fieldset {
+    display: block;
+    border-color: black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    width: 95%;
+}
+
+fieldset input {
+    display: inline-block;
+}
+
+legend {
+    color: maroon;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#des {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    height: 10rem;
+    width: 95%;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+#submit {
+    width: 95%;
+    height: auto;
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-color: blue;
+    color: white;
+}
+
+#submit:hover {
+    background-color: aqua;
+    color: black;
+}
+
+#thank {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: whitesmoke;
+
+}
+
+#confirm{
+    display: block;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 3.3rem;
+}
+
+#note {
+    padding: 100px;
+}
+
+#tohome {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #355e3b;
+    color: white;
+    text-decoration: none;
+}
+
+#tohome:hover {
+    background-color: #8fcb9b;
+    color: black;
+}
+
+:root {
+    --border: 1px solid gray;
+}
+
+table {
+    background-color: white;
+    font-size: 2rem;
+    text-align: center;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 15px;
+    border: var(--border);
+}
+
+thead tr:first-child th {
+    font-size: 4rem;
+    padding: 50px;
+    background-color: #2e406b;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+}
+
+thead tr:nth-child(2) th {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+tbody th {
+    background-color: rgba(143, 203, 155, 0.5);
+}
+
+th, td {
+    padding: 10px;
+    border: var(--border);
+}
+
+td {
+    font-size: 5rem;
+    font-weight: 1000;
+}
+
+#✔️ {
+    color: green;
+}
+
+#x{
+    color: red;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tbody tr:last-child th {
+    border-bottom-left-radius: 15px;
+}
+
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 15px;
+}
