@@ -405,11 +405,11 @@ td {
     font-weight: 1000;
 }
 
-#✔️ {
+.✔️ {
     color: green;
 }
 
-#x{
+.x{
     color: red;
 }
 
