@@ -115,11 +115,13 @@ nav a:hover {
 
 #label {
     position: absolute;
+    width: fit-content;
     top: 50px;
-    left: 15px;
+    left: 5px;
     border: 2px solid black;
     padding: 15px;
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 1px 1px 10px gray;
+    text-wrap: nowrap;
 }
 
 #label p {
