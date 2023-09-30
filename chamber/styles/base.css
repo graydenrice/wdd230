@@ -406,15 +406,15 @@ td {
 }
 
 .✔️ {
-    color: green;
+    color: darkgreen;
 }
 
 .x{
-    color: red;
+    color: maroon;
 }
 
 tr:nth-child(odd) {
-    background-color: lightgray;
+    background-color: #d6d6d6;
 }
 
 tbody tr:last-child th {
