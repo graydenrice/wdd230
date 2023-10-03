@@ -1,0 +1,26 @@
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    border: 2px solid black;
+    background-color:aquamarine ;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: blue;
+}
+img {
+    border-radius: 5px;
+    box-shadow: 5px 5px 60px black;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,28 @@
+{
+    "Family Name" : "Smith",
+    "Date Moved in" : 2023,
+    "Number in the Family" : "4",
+    "Visited by Bishopric" : true,
+    "Members" : [
+        {
+            "Name" : "James",
+            "Gender" : "Male",
+            "Birthdate" : "12/03/1989"
+        },
+        {
+            "Name" : "Jane",
+            "Gender" : "Female",
+            "Birthdate" : "06/13/1990"
+        },
+        {
+            "Name" : "James",
+            "Gender" : "Male",
+            "Birthdate" : "04/24/2010"
+        },
+        {
+            "Name" : "James",
+            "Gender" : "Male",
+            "Birthdate" : "02/05/2012"
+        }
+    ]
+}
