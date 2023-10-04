@@ -36,10 +36,10 @@ visits++;
 localStorage.setItem('numVisits', visits);
 
 const pass1 = document.getElementById('pass');
-const pass2 = documnet.getElementById('passw2');
+const pass2 = document.getElementById('passw2');
 const message = document.getElementById('message')
 
-pass2.addEventListener('focusout', checkSame);
+// pass2.addEventListener('focusout', checkSame);
 
 function checkSame() {
     if (pass1 !== pass2.value) {
@@ -58,9 +58,43 @@ function checkSame() {
 const rvalue = document.getElementById("value");
 const rate = document.getElementById("rate");
 
-rate.addEventListener('change', displayValue);
-rate.addEventListener('input', displayValue);
+// rate.addEventListener('change', displayValue);
+// rate.addEventListener('input', displayValue);
 
 function displayValue() {
     rvalue.innerHTML = rate.value;
+}
+
+const curTemp = document.querySelector('#temp');
+const icon = document.querySelector('#w-icon');
+const caption = document.querySelector('figcaption');
+const weather = document.querySelector('#weather');
+
+let url = 'https://api.openweathermap.org/data/2.5/weather?lat=41.117&lon=-112.08&units=imperial&appid=643adec8f9a91073b6b9137ce6f36dfb';
+
+async function fetchWeather() {
+    try{
+        const response = await fetch(url);
+        if(response.ok) {
+            const data = await response.json();
+            console.log(data);
+            displayWeather(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+fetchWeather();
+
+function displayWeather(data) {
+    let round  = data.main.temp;
+    curTemp.innerHTML = `${Math.round(round)}&deg;F - `;
+    const iconSource = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
+    let description = data.weather[0].description;
+    icon.setAttribute('src', iconSource);
+    icon.setAttribute('alt', 'Weather Icon');
+    caption.textContent = description;
 }
