@@ -36,6 +36,3 @@ if (!firstVisit) {
 var date = new Date.now();
 
 document.getElementById('timest').innerHTML = date;
-
-
-
