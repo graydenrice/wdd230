@@ -1,5 +1,5 @@
-const homeURL = 'https://graydenrice.github.io/wdd230/chamber/';
-const membersURL = 'https://graydenrice.github.io/wdd230/chamber/data/members.json';
+const homeURL = 'https://graydenrice.github.io/wdd230/chamber/directory';
+const membersURL = 'https://graydenrice.github.io/wdd230/chamber/members.json';
 
 async function getData() {
     const response = await fetch(membersURL);
@@ -11,11 +11,10 @@ async function getData() {
 
 getData();
 
-const directory = document.querySelector('#directory');
-
 const displayMembers = (members) => {
-    
+    const directory = document.querySelector('#directory');
     members.forEach(member => {
+        
         let memberCard = document.createElement('section');
         let name = document.createElement('h1');
         let address = document.createElement('p');
@@ -27,7 +26,7 @@ const displayMembers = (members) => {
         name.textContent = member.name;
         address.textContent = member.address;
         phone.textContent = member.phone;
-        webUrl.textContent = member.website;
+        webUrl.setAttribute('href', member.website);
         membership.textContent = member.membership;
 
         memberCard.appendChild(name);
@@ -35,8 +34,9 @@ const displayMembers = (members) => {
         memberCard.appendChild(phone);
         memberCard.appendChild(webUrl);
         memberCard.appendChild(membership);
+        directory.appendChild(memberCard);
 
-    });
+        });
 
-    directory.appendChild(memberCard);
-}
+    
+};
