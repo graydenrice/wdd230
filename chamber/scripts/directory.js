@@ -1,4 +1,4 @@
-const homeURL = 'https://graydenrice.github.io/wdd230/chamber/directory';
+const homeURL = 'https://graydenrice.github.io/wdd230/chamber/directory.html';
 const membersURL = 'https://graydenrice.github.io/wdd230/chamber/members.json';
 
 async function getData() {
