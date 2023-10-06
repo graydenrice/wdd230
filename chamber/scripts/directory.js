@@ -1,5 +1,5 @@
-const homeURL = 'https://graydenrice.github.io/wdd230/chamber/directory.html';
-const membersURL = 'https://graydenrice.github.io/wdd230/chamber/members.json';
+const homeUrl = 'https://graydenrice.github.io/wdd230/chamber/';
+const membersURL = 'data/members.json';
 
 async function getData() {
     const response = await fetch(membersURL);
@@ -13,30 +13,49 @@ getData();
 
 const displayMembers = (members) => {
     const directory = document.querySelector('#directory');
-    members.forEach(member => {
+    members.forEach(name => {
         
-        let memberCard = document.createElement('section');
-        let name = document.createElement('h1');
-        let address = document.createElement('p');
-        let phone = document.createElement('p');
+        let memberCard = document.createElement('div');
+        let name1 = document.createElement('h1');
+        let address1 = document.createElement('p');
+        let phone1 = document.createElement('p');
         let webUrl = document.createElement('a');
         let logo = document.createElement('img');
-        let membership = document.createElement('p');
+        let membership1 = document.createElement('p');
 
-        name.textContent = member.name;
-        address.textContent = member.address;
-        phone.textContent = member.phone;
-        webUrl.setAttribute('href', member.website);
-        membership.textContent = member.membership;
+        name1.textContent = `${name.name}`;
+        address1.innerHTML = name.address;
+        phone1.textContent = name.phone;
+        webUrl.innerHTML = name.website;
+        webUrl.setAttribute('href', name.website);
+        membership1.textContent = name.membership;
+        logo.setAttribute('src', name.logo);
+        logo.setAttribute('width', '457');
+        logo.setAttribute('height', '157');
 
-        memberCard.appendChild(name);
-        memberCard.appendChild(address);
-        memberCard.appendChild(phone);
+        memberCard.appendChild(logo);
+        memberCard.appendChild(name1);
+        memberCard.appendChild(address1);
+        memberCard.appendChild(phone1);
         memberCard.appendChild(webUrl);
-        memberCard.appendChild(membership);
+        memberCard.appendChild(membership1);
         directory.appendChild(memberCard);
 
         });
 
     
 };
+
+const gridButton = document.querySelector('#grid');
+const listButton = document.querySelector('#list');
+const directory = document.querySelector('#directory')
+
+gridButton.addEventListener("click", () => {
+    directory.classList.add('grid');
+    directory.classList.remove('list');
+});
+
+listButton.addEventListener("click", () => {
+    directory.classList.add('list');
+    directory.classList.remove('grid');
+});

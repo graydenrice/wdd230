@@ -1,100 +1,60 @@
 {
     "members" : [
         {
-            "member" : [
-                {
-                "name" : "Schneiter's Bluff Golf Course",
-                "address" : "300 N 3500 W, West Point, UT 84015",
-                "phone" : "(801) 773-0731",
-                "website" : "https://schneitersgolf.com/",
-                "logo" : "",
-                "membership" : "Gold"
-                }
-            ]
+            "name" : "Schneiter's Bluff Golf Course",
+            "address" : "300 N 3500 W, West Point, UT 84015",
+            "phone" : "(801) 773-0731",
+            "website" : "https://schneitersgolf.com/",
+            "logo" : "images/bluff.webp",
+            "membership" : "Gold Member"
         },
         {
-            "member" : [
-                {
-                "name" : "Horizon Credit Union",
-                "address" : "2986 W 300 N, West Point, UT 84015",
-                "phone" : "(801) 525-4659",
-                "website" : "https://www.myhorizoncu.com/",
-                "logo" : "",
-                "membership" : "Gold"
-                }
-            ]
+            "name" : "Horizon Credit Union",
+            "address" : "<p>2986 W 300 N, West Point, UT 84015</p>",
+            "phone" : "(801) 525-4659",
+            "website" : "https://www.myhorizoncu.com/",
+            "logo" : "images/horizen.webp",
+            "membership" : "Gold Member"
         },
         {
-            "member" : [
-                {
-                "name" : "West Point Pharmacy",
-                "address" : "3024 W 300 N ste d, West Point, UT 84015",
-                "phone" : "(385) 999-6979",
-                "website" : "https://www.westpointrx.com/",
-                "logo" : "",
-                "membership" : "Gold"
-                }
-            ]
+            "name" : "West Point Pharmacy",
+            "address" : "3024 W 300 N ste d, West Point, UT 84015",
+            "phone" : "(385) 999-6979",
+            "website" : "https://www.westpointrx.com/",
+            "logo" : "images/pharmacy.webp",
+            "membership" : "Gold Member"
         },
         {
-            "member" : [
-                {
-                "name" : "Smith's Marketplace",
-                "address" : "217 N 2000 W, West Point, Ut 84015",
-                "phone" : "(385) 383-3030",
-                "website" : "https://www.smithsfoodanddrug.com/stores/grocery/ut/west-point/smiths-marketplace/706/00272?cid=loc_70600272_gmb",
-                "logo" : "",
-                "membership" : "Gold"
-                }
-            ]
+            "name" : "Smith's Marketplace",
+            "address" : "217 N 2000 W, West Point, Ut 84015",
+            "phone" : "(385) 383-3030",
+            "website" : "https://www.smithsfoodanddrug.com/",
+            "logo" : "images/smiths.webp",
+            "membership" : "Gold Member"
         },
         {
-            "member" : [
-                {
-                "name" : "Deseret First Credit Union",
-                "address" : "267 N 2000 W, West Point, UT 84015",
-                "phone" : "(801) 784-5700",
-                "website" : "https://www.dfcu.com/about/dfcu/locations/west-point/",
-                "logo" : "",
-                "membership" : "Gold"
-                }
-            ]
+            "name" : "Deseret First Credit Union",
+            "address" : "267 N 2000 W, West Point, UT 84015",
+            "phone" : "(801) 784-5700",
+            "website" : "https://www.dfcu.com/",
+            "logo" : "images/dfcu.webp",
+            "membership" : "Gold Member"
         },
         {
-            "member" : [
-                {
-                "name" : "Wells Fargo",
-                "address" : "279 N 2000 W STE A, West Point, UT 84015",
-                "phone" : "(385) 423-3630",
-                "website" : "https://www.wellsfargo.com/",
-                "logo" : "",
-                "membership" : "Gold"
-                }
-            ]
+            "name" : "Wells Fargo",
+            "address" : "279 N 2000 W STE A, West Point, UT 84015",
+            "phone" : "(385) 423-3630",
+            "website" : "https://www.wellsfargo.com/",
+            "logo" : "images/wells.webp",
+            "membership" : "Gold Member"
         },
         {
-            "member" : [
-                {
-                "name" : "Culver's",
-                "address" : "281 N 2000 W, West Point, UT 84015",
-                "phone" : "(801) 217-3782",
-                "website" : "http://www.culvers.com/",
-                "logo" : "",
-                "membership" : "Gold"
-                }
-            ]
-        },
-        {
-            "member" : [
-                {
-                "name" : "Dirty Dough",
-                "address" : "279 N 2000 W unit b, West Point, UT 84015",
-                "phone" : "(385) 452-3810",
-                "website" : "https://dirtydoughcookies.com/",
-                "logo" : "",
-                "membership" : "Gold"
-                }
-            ]
+            "name" : "America First Credit Union",
+            "address" : "217 N 2000 W, West Point, UT 84015",
+            "phone" : "(800) 999-3961",
+            "website" : "https://www.americafirst.com/",
+            "logo" : "images/afcu.webp",
+            "membership" : "Gold Member"
         }
     ]
 }
