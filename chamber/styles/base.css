@@ -420,19 +420,8 @@ tbody tr:last-child td:last-child {
 }
 
 #direct {
-    display: block;
-}
-
-#directory div{
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 25px;
-    font-size: 2rem; 
-    text-align: center;
-    background-color: #eae6e5;
-    box-shadow: 5px 5px 10px gray;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 #veiw {
@@ -447,10 +436,27 @@ tbody tr:last-child td:last-child {
     text-align: center;
 }
 
+#list {
+    font-size: 68px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     text-align: center;
+    grid-gap: 20px;
+}
+
+.grid div{
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 2rem; 
+    text-align: center;
+    background-color: #eae6e5;
+    box-shadow: 5px 5px 10px gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .grid img {
@@ -466,21 +472,26 @@ tbody tr:last-child td:last-child {
 }
 
 .list div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 75%;
+    display: block;
     padding: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: left;
+    background-color: #eae6e5;
+    box-shadow: 5px 5px 10px gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .list div:nth-child(odd) {
     background-color: darkgray;
 }
 
-.list h1 {
-    display: flex;
+.list a, .list p {
+    padding: 10px;
+    font-size: 1.5rem;
 }
 
 .list img {
     display: none;
 }
-

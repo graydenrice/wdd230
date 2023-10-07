@@ -124,4 +124,29 @@
     #image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover, #image6:hover {
         box-shadow: 20px 20px 60px black;
     }
+
+    .list{
+        margin: 100px;
+    }
+    
+    .list div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: 15px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    
+    .list div:nth-child(odd) {
+        background-color: darkgray;
+    }
+    
+    .list h1 {
+        display: flex;
+    }
+    
+    .list img {
+        display: none;
+    }
+    
 }
