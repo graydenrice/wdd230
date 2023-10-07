@@ -31,8 +31,8 @@ const displayMembers = (members) => {
         membership1.textContent = name.membership;
         logo.setAttribute('src', name.logo);
         logo.setAttribute('alt', 'company logo');
-        logo.setAttribute('width', '457');
-        logo.setAttribute('height', '157');
+        logo.setAttribute('width', '470');
+        logo.setAttribute('height', '177');
 
         memberCard.appendChild(logo);
         memberCard.appendChild(name1);
