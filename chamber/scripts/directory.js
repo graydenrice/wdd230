@@ -30,6 +30,7 @@ const displayMembers = (members) => {
         webUrl.setAttribute('href', name.website);
         membership1.textContent = name.membership;
         logo.setAttribute('src', name.logo);
+        logo.setAttribute('alt', 'company logo');
         logo.setAttribute('width', '457');
         logo.setAttribute('height', '157');
 
