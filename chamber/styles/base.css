@@ -460,8 +460,10 @@ tbody tr:last-child td:last-child {
 }
 
 .grid img {
-    padding: 15px;
+    padding: 10px;
+    margin: 10px;
     background-color: white;
+    color: black;
 }
 
 .grid h1 {
