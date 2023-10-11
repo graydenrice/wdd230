@@ -126,7 +126,7 @@
     }
 
     .label {
-        text-align: end;
+        position: relative;
         width: fit-content;
         border: 2px solid black;
         background-color: rgba(255, 255, 255, 0.5);
