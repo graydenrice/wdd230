@@ -121,7 +121,7 @@ nav {
     position: absolute;
     margin: 0 auto;
     width: 100%;
-    height: 1500px;
+    height: 1700px;
     z-index: -1;
 }
 
@@ -168,11 +168,9 @@ section h2{
     border-bottom: 2px solid black;
 }
 
-#card1 {
-    background-color: #e6f2ff;
-}
 #card1 p {
     font-size: 1.5rem;
+    font-weight: 900;
 }
 
 h3 {
@@ -279,6 +277,8 @@ iframe {
     width: 100%;
     height: auto;
     grid-column: 1;
+    margin: 50px auto;
+    text-align: center;
 }
 
 #golf {
@@ -331,9 +331,8 @@ form {
     bottom: 120px;
 }
 
-label {
-    font-size: 1.5rem;
-    font-weight: 500;
+.label {
+    display: inline-block;
 }
 
 sup{
