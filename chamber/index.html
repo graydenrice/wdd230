@@ -36,7 +36,13 @@
         </ul>
     </nav>
     <main>
-        <img id="hero" src="images/west-point.jpeg" alt="Hero Image">
+        <picture>
+            <source srcset="images/west-point-small.webp" media="(max-width: 800px)">
+            <img id="hero" src="images/west-point.webp" alt="Hero Image">
+        </picture>
+        <div id="banner">
+            <h1 id="eventinfo">Join us for our weekly meetings, Wednesdays @ 7:00 p.m.<button id="close">X</button></h1>
+        </div>
         <div id="action"><a href="join.html">Join The Chamber</a></div>
         <section id="card1">
             <h2>Current Events</h2>
@@ -48,20 +54,27 @@
                 <img id="w-icon" src="https://openweathermap.org/img/w/" alt="weather icon">
                 <span id="temp"></span>
                 <figcaption></figcaption>
+                <div id="daily">
+                    <span id="mon"></span>
+                    <span id="tues"></span>
+                    <span id="wed"></span>
+                </div>
             </figure>
             
         </section>
         <section id="card3">
             <h2>Spotlights</h2>
-            <p>(adverts)</p>
+            <div id="spotlight"></div>
         </section>
     </main>
     <footer>
         <address>1284 West 600 North <br> West Point, Utah 84015</address>
         <p id="contact">info@wpchamberofcommerce.org<br>(801)555-2386</p>
-        <p id="info">&copy;<span id="year"></span> Grayden Rice | WDD230-Final Project | <span id="lastModified"></span></p>
-        
+        <p id="info">&copy;<span id="year"></span> Grayden Rice | WDD230-Final Project | <span id="lastModified"></span></p>  
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>

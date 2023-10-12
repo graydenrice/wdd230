@@ -1,6 +1,7 @@
 @media screen and (min-width: 658px) {
     nav{
         height: 5rem;
+        margin: 0px;
     }
     .navigation {
         display: flex;
@@ -17,6 +18,15 @@
 
     #menu {
         display: none;
+    }
+
+    #hero {
+        position: absolute;
+        margin: 0 auto;
+        padding: 0px;
+        width: 100%;
+        height: 120%;
+        z-index: -1;
     }
 
     header h1{
@@ -44,10 +54,23 @@
         grid-column: 1;
     }
 
+    #card3 img{
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 25px;
+        box-shadow: 5px 5px 10px black;
+        background-color: white;
+    }
+    
+    #spotlight{
+        padding: 20px;
+    }
+    
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        position: absolute;
+        position:relative;
         bottom: 0;
         color: white;
         bottom: 0;
