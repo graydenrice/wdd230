@@ -178,7 +178,6 @@ h3 {
 }
 
 #card3 img{
-    width:fit-content;
     padding: 20px;
     border: 1px solid black;
     border-radius: 25px;
@@ -188,7 +187,6 @@ h3 {
 
 #weather {
     font-size: 4rem;
-    padding: 75px;
 }
 
 #w-icon {
