@@ -46,7 +46,7 @@
     #card1 {
         grid-column: 1;
         max-width: 800px;
-        max-height: 400px;
+        max-height: 500px;
     }
 
     #card2 {
