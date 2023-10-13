@@ -159,7 +159,6 @@ section{
     box-shadow: 5px 5px 10px black;
     margin-top: 20px;
     margin-bottom: 20px;
-    scale: 75%;
 }
 
 section h2{
@@ -187,7 +186,7 @@ h3 {
 }
 
 #weather {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 #w-icon {
