@@ -13,7 +13,6 @@ async function fetchWeather() {
         const response = await fetch(url);
         if(response.ok) {
             const data = await response.json();
-            console.log(data);
             displayWeather(data);
         } else {
             throw Error(await response.text());
@@ -43,7 +42,6 @@ async function fetchDaily() {
         const response = await fetch(url2);
         if(response.ok) {
             const data2 = await response.json();
-            console.log(data2);
             displayDaily(data2);
         } else {
             throw Error(await response.text());

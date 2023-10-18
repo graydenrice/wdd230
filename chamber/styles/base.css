@@ -43,6 +43,10 @@ nav {
     font-family: 'Merriweather', 'Times New Roman', Times, serif;
 }
 
+#current{
+   text-decoration: underline; 
+}
+
 .navigation {
     list-style-type: none;
 }

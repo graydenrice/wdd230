@@ -14,6 +14,3 @@ function deleteBanner() {
 closeButton.addEventListener('click', () => {
     banner.remove();
 });
-
-
-console.log(deleteBanner());

@@ -6,8 +6,6 @@ async function getData() {
     const data = await response.json();
     displaySpotlight1(data);
     displaySpotlight2(data);
-
-    console.log(data);
 }
 
 getData();

@@ -1,17 +1,3 @@
-const button = document.querySelector('#menu')
-const nav = document.querySelector('.navigation')
-
-button.addEventListener('click', () => {
-    nav.classList.toggle('open');
-    button.classList.toggle('open');
-});
-
-var lastMod = document.lastModified;
-document.getElementById('lastModified').innerHTML = 'Last Modified: ' + lastMod;
-
-const year = new Date().getFullYear();
-document.getElementById('year').innerHTML = year;
-
 const firstVisit = localStorage.getItem('lastVisit');
 const today = Date.now();
 const visitElement = document.getElementById('visits');
@@ -32,7 +18,3 @@ if (!firstVisit) {
 
     localStorage.setItem('lastVisit', today);
 }
-
-var date = new Date.now();
-
-document.getElementById('timest').innerHTML = date;
