@@ -412,14 +412,6 @@ textarea {
     color: black;
 }
 
-#thank {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    background-color: whitesmoke;
-
-}
-
 #confirm{
     display: block;
     text-align: center;
@@ -428,11 +420,20 @@ textarea {
     font-size: 3.3rem;
 }
 
+#confirm{
+    margin-bottom: 300px;
+}
+
 #note {
     padding: 100px;
+    font-size: 5rem;
 }
 
 #tohome {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 3rem;
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
