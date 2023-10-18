@@ -575,11 +575,6 @@ tbody tr:last-child td:last-child {
     background-color: darkgray;
 }
 
-.list a, .list p {
-    padding: 10px;
-    font-size: 1.5rem;
-}
-
 .list img {
     display: none;
 }
